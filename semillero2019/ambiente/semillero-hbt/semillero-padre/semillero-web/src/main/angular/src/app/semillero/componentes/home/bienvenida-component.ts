@@ -18,6 +18,7 @@ export class BienvenidaComponent implements OnInit {
   public urlImagen : string;
   public comicDTO : ComicDTO;
   
+  
   constructor(private router : Router, private activatedRoute: ActivatedRoute, private ejemploService: EjemploService) {
     console.log("entro al constructor del componente bienvenida");
   }
