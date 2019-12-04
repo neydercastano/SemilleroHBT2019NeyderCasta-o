@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+
 
 /**
  * @description Componente bienvenida, el cual contiene el nombre del autor
