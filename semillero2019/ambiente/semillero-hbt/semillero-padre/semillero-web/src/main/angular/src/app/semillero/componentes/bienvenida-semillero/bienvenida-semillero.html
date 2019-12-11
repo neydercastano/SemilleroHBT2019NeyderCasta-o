@@ -7,3 +7,11 @@
     En este punto se especifica las variables "nombre_autor" y "cuidad" del componente "bienvenida-semillero.ts" que luego se llaman e imprimen en "bienvenida-component.html"
 -->
 <h2>{{nombre_autor}} - {{ciudad}}</h2> 
+
+<!--
+<pre>{{listaJson}}</pre>
+
+-->
+
+
+<li *ngFor="let item of listaDatosComic; index as i; ">{{item.nombre}} - {{item.editorial}} - {{item.tematica}} - {{item.numeroPaginas}} - {{item.estado}} - {{item.precio}} - {{item.autores}} - {{item.color}}</li>
